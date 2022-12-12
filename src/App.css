@@ -1,0 +1,21 @@
+form{
+  width: 17rem;
+  height: 13rem;
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1rem;
+  padding: 1rem;
+  background: rgb(208, 241, 252);
+}
+label{
+  margin-right: 5px;
+}
+
+input[type='text'], 
+input[type='number']{
+  padding: 2px;
+  width: 100%;
+}
